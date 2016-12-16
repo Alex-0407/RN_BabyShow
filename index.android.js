@@ -1,0 +1,26 @@
+/**
+ * Sample React Native App
+ * https://github.com/facebook/react-native
+ * @flow
+ */
+
+import React, { Component } from 'react';
+import {
+  AppRegistry,
+} from 'react-native';
+
+
+import App from './App';
+
+
+class RN_BabyShow extends Component {
+  render() {
+    return (
+      <App />
+    );
+  }
+}
+
+
+
+AppRegistry.registerComponent('RN_BabyShow', () => RN_BabyShow);
